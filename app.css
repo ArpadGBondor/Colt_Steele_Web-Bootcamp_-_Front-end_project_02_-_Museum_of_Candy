@@ -1,0 +1,86 @@
+body {
+  background-color: #f5d9df;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+section:not(:first-of-type) {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  transition: background-color 0.5s linear;
+}
+
+#mainNavbar.scrolled {
+  background: rgb(222, 192, 222);
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+#headingGroup h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.blurb h2 {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #fa7da9;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+@media screen and (min-width: 900px) {
+  #headingGroup h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  #headingGroup h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #headingGroup h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #headingGroup h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #headingGroup h2 {
+    font-size: 4.5rem;
+  }
+}
